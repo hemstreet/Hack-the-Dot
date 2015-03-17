@@ -1,1 +1,1 @@
-# Hack-the-Dot
+Project files for http://www.hackthedot.org/
