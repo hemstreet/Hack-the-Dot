@@ -1,9 +1,15 @@
-
+#outer-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
 #container {
-  width: 500px;
+  width: 400px;
   margin: auto !important;
   display: block;
-  height: 500px;
+  height: 400px;
+  max-width: calc(100vw - 20px);
+  max-height: calc(100vw - 20px);
   position: relative;
   list-style-type: none;
   -webkit-touch-callout: none;
@@ -19,11 +25,13 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   color: #fff;
-  padding: 20px;
-  width: 360px;
+  width: 365px;
+  max-width: calc(100vw - 60px);
+  padding: 10px;
   height: auto;
-  top: 50px;
-  left: 50px;
+  top: 5px;
+  left: 5px;
+  right: 5px;
   position: absolute;
   cursor: hand;
 }
@@ -45,6 +53,8 @@
   background: #222;
   width: 340px;
   height: 340px;
+  max-width: calc(100vw - 70px);
+  max-height: calc(100vw - 70px);
   display: block;
   margin-top: 10px;
   margin-left: 10px;
@@ -80,9 +90,8 @@
 /* LOGO */
 #logo {
   display: block;
-  width: 400px;
-  margin: 45px auto 0 auto;
-
+  width: 100%;
+  margin: 15px auto 0 auto;
 }
 
 .description {
@@ -91,7 +100,11 @@
 }
 
 .action {
-  margin-top: 15px;
+  margin: 15px;
+}
+
+.no.action {
+  float:left;
 }
 
 .yes.action {

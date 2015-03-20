@@ -58,8 +58,8 @@ $(document).ready(function(){
     $('#container').append('<div class="buddy">' +
       '<div class="avatar"  style="display: block; background-image: url(static/img/' + croissant.img + ')"></div>' +
       '<p class="description">'+ croissant.desc +'</p>' +
-      // '<img class="no action" src="static/img/no.png"/>' +
-      // '<img class="yes action" src="static/img/yes.png"/>' +
+      '<img class="no action" src="static/img/no.png"/>' +
+      '<img class="yes action" src="static/img/yes.png"/>' +
     '</div>');
   });
 
