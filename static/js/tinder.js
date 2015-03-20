@@ -56,10 +56,10 @@ $(document).ready(function(){
 
   data.forEach(function (croissant) {
     $('#container').append('<div class="buddy" style="display: block;">' +
-      '<div class="avatar"  style="display: block; background-image: url(/static/img/' + croissant.img + ')"></div>' +
+      '<div class="avatar"  style="display: block; background-image: url(static/img/' + croissant.img + ')"></div>' +
       '<p class="description">'+ croissant.desc +'</p>' +
-      '<img class="no action" src="/static/img/no.png"/>' +
-      '<img class="yes action" src="/static/img/yes.png"/>' +
+      '<img class="no action" src="static/img/no.png"/>' +
+      '<img class="yes action" src="static/img/yes.png"/>' +
     '</div>');
   });
 
@@ -74,7 +74,7 @@ $(document).ready(function(){
           $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
        }
     });
-  
+
    $(".buddy").on("swipeleft",function(){
     $(this).addClass('rotate-right').delay(700).fadeOut(1);
     $('.buddy').find('.status').remove();
@@ -87,5 +87,9 @@ $(document).ready(function(){
         $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
     }
   });
+
+ // $('.yes.action').on('click', function(e) {
+
+ // });
 
 });
