@@ -21,7 +21,7 @@
   color: #fff;
   padding: 20px;
   width: 360px;
-  height: 360px;
+  height: auto;
   top: 50px;
   left: 50px;
   position: absolute;
@@ -81,17 +81,11 @@
 #logo {
   display: block;
   width: 400px;
-  margin: 0 auto;
+  margin: 45px auto 0 auto;
+
 }
 
 .description {
   color: #333;
-  
+  margin: 10px 10px 0 10px;
 }
-
-
-
-
-
-
-
