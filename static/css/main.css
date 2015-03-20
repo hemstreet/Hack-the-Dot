@@ -76,3 +76,22 @@
   left: 40px;
   text-shadow: none;
 }
+
+/* LOGO */
+#logo {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.description {
+  color: #333;
+  
+}
+
+
+
+
+
+
+
