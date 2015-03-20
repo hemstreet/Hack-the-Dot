@@ -55,13 +55,15 @@ $(document).ready(function(){
   ];
 
   data.forEach(function (croissant) {
-    $('#container').append('<div class="buddy" style="display: block;">' +
+    $('#container').append('<div class="buddy">' +
       '<div class="avatar"  style="display: block; background-image: url(static/img/' + croissant.img + ')"></div>' +
       '<p class="description">'+ croissant.desc +'</p>' +
-      '<img class="no action" src="static/img/no.png"/>' +
-      '<img class="yes action" src="static/img/yes.png"/>' +
+      // '<img class="no action" src="static/img/no.png"/>' +
+      // '<img class="yes action" src="static/img/yes.png"/>' +
     '</div>');
   });
+
+  $('.buddy:first-child').css('display', 'block');
 
     $(".buddy").on("swiperight",function(){
       $(this).addClass('rotate-left').delay(700).fadeOut(1);
@@ -81,15 +83,19 @@ $(document).ready(function(){
     $(this).append('<div class="status dislike">Dislike!</div>');
 
     if ( $(this).is(':last-child') ) {
-     // $('.buddy:nth-child(1)').removeClass ('rotate-left rotate-right').fadeIn(300);
+     $('.buddy:nth-child(1)').removeClass ('rotate-left rotate-right').fadeIn(300);
      //  alert('Na-na!');
      } else {
         $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
     }
   });
 
- // $('.yes.action').on('click', function(e) {
+  $('.yes.action').on('click', function(e) {
+    $('.buddy[style*="block"]').trigger('swiperight');
+  });
 
- // });
+  $('.no.action').on('click', function(e) {
+    $('.buddy[style*="block"]').trigger('swipeleft');
+  });
 
 });
