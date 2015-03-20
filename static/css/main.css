@@ -89,3 +89,11 @@
   color: #333;
   margin: 10px 10px 0 10px;
 }
+
+.action {
+  margin-top: 15px;
+}
+
+.yes.action {
+  float: right;
+}
