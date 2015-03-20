@@ -1,1 +1,1 @@
-web: my-server -port $PORT
+web: Hack-The-Dot -port $PORT
