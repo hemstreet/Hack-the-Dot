@@ -2,31 +2,31 @@ $(document).ready(function(){
   var data = [
     {
       img: 'bushcroissant.jpg',
-      desc: 'meow'
+      desc: 'uhohouh #itsnopretzel'
     },
     {
       img: 'cat.jpg',
-      desc: 'meow'
+      desc: 'Freshly baked might bite #meow'
     },
     {
       img: 'cosplay.jpg',
-      desc: 'meow'
+      desc: 'Lonely croissant seeks dom jelly #lookingtoparty #dtf'
     },
     {
       img: 'croissant_smores.jpg',
-      desc: 'meow'
+      desc: 'Graham crackers are sooo 2014'
     },
     {
       img: 'croissantSleepingBag.jpg',
-      desc: 'meow'
+      desc: 'Stuff it however you like.'
     },
     {
       img: 'croissantTheHut.jpg',
-      desc: 'meow'
+      desc: 'Bwuabwuabwuabwaubwau'
     },
     {
       img: 'obamacroissant.jpg',
-      desc: 'meow'
+      desc: 'My fellow Americans we are invading the French #murca'
     },
     {
       img: 'stuffed.jpg',
@@ -34,11 +34,23 @@ $(document).ready(function(){
     },
     {
       img: 'usb.jpg',
-      desc: 'meow'
+      desc: 'Fancy meets function, 120GB and 100% snobby.'
     },
     {
       img: 'vintage.jpg',
-      desc: 'meow'
+      desc: 'Unique molding, dry aged in sandwich bag last 20 years. Can\'92t beat a classic.'
+    },
+    {
+      img: 'creepy.jpg',
+      desc: 'Day old croissant, lightly sniffed. Will trade for beer or hairpiece.'
+    },
+    {
+      img: 'fancy.jpg',
+      desc: 'Check out my croissant swag. Croissant not for sale. #datnewnew'
+    },
+    {
+      img: 'lego.jpg',
+      desc: 'Freaking perfectly golden and crispy, but inedible. I cant move. Help me'
     }
   ];
 
